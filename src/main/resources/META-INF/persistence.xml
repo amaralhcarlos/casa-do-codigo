@@ -10,8 +10,7 @@
 		<provider>org.hibernate.ejb.HibernatePersistence</provider>
 
 		<!-- Java Transaction API | JNDI -->
-		<jta-data-source>java:jboss/datasources/casadocodigoDS
-		</jta-data-source>
+		<jta-data-source>java:jboss/datasources/casadocodigoDS</jta-data-source>
 		<properties>
 
 			<property name="hibernate.hbm2ddl.auto" value="update" />
